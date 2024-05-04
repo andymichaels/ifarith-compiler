@@ -93,8 +93,7 @@ ask me.
 Your team will receive a small bonus for being the first team to
 report a unique bug (unique determined by me).
 
-bool0 isn't working no matching clause for '(let ((a #t)) (let* #<procedure:rest> (print a))) in the compiler rkt:122:2 
-
+**Answer:** The bug that we found after implementing let* is that bool0 is dysfunctional. We are not entirely sure if this is on us, but even when hard-coding against the test case for bool0, we still recieve the error, "no matching clause for '(let ((a #t)) (let* #<procedure:rest> (print a))) in the compiler rkt:122:2", despite having it be exactly that in our pattern matching code.
 
 [ High Level Reflection ] 
 
