@@ -20,7 +20,7 @@ collectively read and agree to each other's answers.
 
 [ Question 1 ] 
 
-For this task, you will three new .irv programs. These are
+For this task, you will (read?) three new .irv programs. These are
 `ir-virtual?` programs in a pseudo-assembly format. Try to compile the
 program. Here, you should briefly explain the purpose of ir-virtual,
 especially how it is different than x86: what are the pros and cons of
