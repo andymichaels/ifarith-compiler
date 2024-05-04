@@ -51,6 +51,8 @@ carefully the relevance of each of the intermediate representations.
 For this question, please add your `.ifa` programs either (a) here or
 (b) to the repo and write where they are in this file.
 
+They are located in test-programs and their names are the following:
+
 myIFA1.ifa:
     input:
     '(if (+ 2 4) (print 1) (print 0))
