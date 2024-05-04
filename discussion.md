@@ -83,7 +83,7 @@ there could be more?
 In answering this question, you must use specific examples that you
 got from running the compiler and generating an output.
 
-**Answer:** 
+**Answer:** In order to understand the passes, we need to go step-by-step through the process. We start with ifarith, which pattern matches the input into values that the program can work with. After that, ifarith-tiny further simplifies the input and makes sure there are no syntax errors. ANF creates a series of nested lets that are used in the IR-virtual step to begin translating the program into machine code. The final step we see is x86, an intermediate step that gets translated into NASM, which the computer can actually read and execute.
 
 [ Question 4 ] 
 
