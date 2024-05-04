@@ -31,6 +31,8 @@ racket compiler.rkt -v test-programs/sum1.irv
 
 (Also pass in -m for Mac)
 
+**Answer:** The .irv programs are much more concise and easier for the user to read. Since they are shorter, the run time is also shorter, and its comination of functions to add values will make the run time a lot faster, as it has less to process. THe downside with using this is that the user will get less access to the pathing of the data, since every step of mov isn't visible. Because of this, the user does not have manipulation over every memory address like one would have in an x86 compiler.
+
 [ Question 2 ] 
 
 For this task, you will write three new .ifa programs. Your programs
