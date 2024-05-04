@@ -51,6 +51,26 @@ carefully the relevance of each of the intermediate representations.
 For this question, please add your `.ifa` programs either (a) here or
 (b) to the repo and write where they are in this file.
 
+myIFA1.ifa:
+    input:
+    '(if (+ 2 4) (print 1) (print 0))
+    output:
+    '(+ 2 4)
+
+myIFA2.ifa:
+    input: 
+    (* 2 (+ 2 3)) 4)
+    output:
+    (* 2 (+ 2 3)) 4)
+
+myIFA3.ifa:
+    input:
+    103
+    output:
+    103
+
+**Answer:** In ANF, the program is translated into easy to execute instructions. In the case of our file, the input doesn't need to be broken down because it is just one value passed into the program. It is then translated into ir-virtual instructions and then translated into assembly, then into NASM which the computer reads.
+
 [ Question 3 ] 
 
 Describe each of the passes of the compiler in a slight degree of
@@ -62,6 +82,8 @@ there could be more?
 
 In answering this question, you must use specific examples that you
 got from running the compiler and generating an output.
+
+**Answer:** 
 
 [ Question 4 ] 
 
