@@ -73,6 +73,8 @@ definition of what an idiom is: think carefully about whether you see
 any pattern in this code that resonates with you from earlier in the
 semester.
 
+**Answer:** The idioms that we noticed in this code were pattern matching, recursion, and fold. With pattern matching, we see a very similar structure to the church encoding assignment, where we were going on a case-by-case basis to build definitions. In this way, we can ensure unique outcomes based on the structure of the input. With recursion, we have been using it since the beginning of the semester, as Racket has no built-in loop functions, so using recursion effectively traverses loops in its own way. Finally, this program also uses fold to traverse lists. We saw this on a few of our exams and practice exams, as a way to traverse lists either from the right using foldl or the left using foldr. This program used foldl to reverse lists to traverse from both sides.
+
 [ Question 5 ] 
 
 In this question, you will play the role of bug finder. I would like
@@ -90,6 +92,9 @@ ask me.
 
 Your team will receive a small bonus for being the first team to
 report a unique bug (unique determined by me).
+
+bool0 isn't working no matching clause for '(let ((a #t)) (let* #<procedure:rest> (print a))) in the compiler rkt:122:2 
+
 
 [ High Level Reflection ] 
 
